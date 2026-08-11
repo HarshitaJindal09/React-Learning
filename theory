@@ -1,0 +1,86 @@
+React is a JavaScript library used to build user interfaces (UI), especially for websites and web applications.
+
+It was created by Facebook (Meta) to make building complex websites easier, faster, and more organized.
+
+Think of React as LEGO blocks.
+
+Instead of building the whole website at once, you build small reusable pieces and connect them.
+
+For example:
+
+Navbar
+Login Form
+Search Bar
+Product Card
+Footer
+
+Each of these is called a Component.
+
+Why was React created?
+
+Suppose you're making Instagram.
+
+When someone likes a post:
+
+Without React:
+
+The browser may reload or update a large part of the page.
+
+With React:
+
+Only the Like button and like count change.
+Everything else stays the same.
+
+This makes websites much faster.
+
+
+react is a main library 
+
+react dom is a implemention of react on web
+
+while working on web we use react dom with react
+and woring on mobile app we use react native with react
+
+
+// basic way to create react project
+
+npx create-react-app 01basicreact
+
+cd 01basicreact method type on terminal to go inside this folder
+then type dir
+then run start script write npm run start
+npm run build
+
+
+it is a bulky utility so in nowdays we use vite utility
+
+methods run to create project using vite
+
+npm create vite@latest
+
+enter project name =  01vitereact█
+framework = react
+variant = javascript
+choose eslint
+
+cd 01vitereact
+dir
+npm install
+
+npm run dev
+
+
+Learned About Some Best Practices Using React
+-> Name the component capitalize e.g App.js
+-> We can name both App.js & App.jsx but in vite development environment we have to use jsx
+-> We can return only one component by a jsx function so it's good to wrap in <></> or <div></div>
+-> Created our own component Chai.jsx rendered successfully
+
+
+How to install recent tailwind version 
+1) open terminal and run : npm install tailwindcss @tailwindcss/vite
+2) open vite.config.ts  : add this import line : import tailwindcss from '@tailwindcss/vite'  and inside plugins add : tailwindcss()
+3) open src go to index.css and add :  @import "tailwindcss";   at the top 
+4) open terminal and run : npm run dev 
+
+All set to go now and Don't forget to save changes after step 2 and 3
