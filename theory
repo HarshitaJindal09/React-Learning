@@ -64,6 +64,7 @@ variant = javascript
 choose eslint
 
 cd 01vitereact
+
 dir
 npm install
 
@@ -84,3 +85,8 @@ How to install recent tailwind version
 4) open terminal and run : npm run dev 
 
 All set to go now and Don't forget to save changes after step 2 and 3
+
+
+git add .
+git commit -m "Day 15 React practice"
+git push

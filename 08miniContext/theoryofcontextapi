@@ -1,0 +1,47 @@
+Context API is a way to share data between components without passing props manually through every level (called "prop drilling").
+
+Problem without Context API
+
+Suppose you have:
+
+App
+ └── Parent
+      └── Child
+           └── GrandChild
+
+If App has user data and GrandChild needs it, you have to pass props through every component:
+
+<App user={user} />
+<Parent user={user} />
+<Child user={user} />
+<GrandChild user={user} />
+
+This becomes messy.
+
+Solution: Context API
+
+Create a global store that any component can access directly.
+
+App
+ └── Parent
+      └── Child
+           └── GrandChild  ← directly gets data
+
+
+Real-world Uses
+
+Context API is commonly used for:
+
+Authentication (logged-in user)
+Theme (Dark/Light mode)
+Language settings
+Shopping cart data
+Global app settings
+
+Prop Drilling : Passing the data (props) through multiple layers of components, from a parent component to a deeply nested child component.
+
+
+Context API is a React feature that allows sharing data globally across components without passing props manually through every level of the component tree. It helps solve the prop drilling problem.
+
+
+another ting used is Redux in react(react-Redux) , Redux-toolkit(RTK)  and zustand
