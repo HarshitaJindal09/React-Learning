@@ -90,3 +90,31 @@ All set to go now and Don't forget to save changes after step 2 and 3
 git add .
 git commit -m "Day 15 React practice"
 git push
+
+
+
+
+redux is a core library 
+reacr-redux is its implemention for use it in react
+
+Redux toolkit ki notes
+every app has its 1 store
+1. Create Store - single source of truth
+it has configureStore
+introduce reducer
+
+2. Create Slice(functions) method(createSlice)
+Slice has name, initialState, reducers it is a object :{key: function}
+Access of two things (State, action)
+state = state value in the store we get updated state value in store
+action = action.payload 
+export individual functionality 
+export main source export
+
+3. Add Todo - Give values to State i.e Dispatch Courier  = use method useDispatch()
+ dispatch(addTodo())
+
+4. Take Values - useSelector((state) =>state.todos) state ka access chaiye
+variable me values lelo ek baar aagaie uske baad pure JS concept hai 
+
+Note: Todo's Project basic nai hote xD  :)
