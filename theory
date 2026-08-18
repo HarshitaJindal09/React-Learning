@@ -92,7 +92,8 @@ git commit -m "Day 15 React practice"
 git push
 
 
-
+npm install @reduxjs/toolkit
+npm install react-redux
 
 redux is a core library 
 reacr-redux is its implemention for use it in react
@@ -117,4 +118,34 @@ export main source export
 4. Take Values - useSelector((state) =>state.todos) state ka access chaiye
 variable me values lelo ek baar aagaie uske baad pure JS concept hai 
 
-Note: Todo's Project basic nai hote xD  :)
+Note: Todo's Project basic nai hote xD  
+
+
+
+
+mega project
+
+We use 
+Aapwrite for backend as service 
+Tinymce rich text editor for text editor functionality
+Html-react-parser using to parse html 
+React Hook Forms to hamdle input forms
+Creating .env file to store environment variable
+
+1. Create Vite App
+2. Install dependencies
+           i) Install Redux Toolkit
+           ii) Install React Redux
+           ii) Install React Router Dom
+           ii) Install appwrite
+           ii) Install tinyMCE
+           ii) install html-react-parser
+           ii) Install React hook form
+3. Test Server (npm run dev)
+4.. Setup Environment Variables 
+required to kepp secret and data private 
+make it in root of project
+// never add this file on github or production
+
+in vite project name should be VITE_name
+and access import.meta.env.name
